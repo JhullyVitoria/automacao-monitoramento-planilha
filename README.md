@@ -1,6 +1,6 @@
 # automacao-monitoramento-planilha
 
-# WhatsApp Form Notifier (WA-HA)
+# Notificador de formulários via WhatsApp (WA-HA)
 
 Este projeto foi desenvolvido para automatizar o monitoramento de uma planilha de suporte vinculada a um projeto de extensão universitária.
 Diariamente, usuários preenchiam um formulário com dúvidas e sugestões. O fluxo de trabalho exigia que um monitor acessasse a planilha manualmente pelo menos duas vezes ao dia para checar novas entradas. 
