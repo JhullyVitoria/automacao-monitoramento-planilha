@@ -1,0 +1,15 @@
+version: "3"
+
+services:
+  waha:
+    image: devlikeapro/waha:latest
+    container_name: waha_whatsapp
+    restart: always
+    # O WA-HA vai rodar na porta 3000
+    ports:
+      - "3000:3000"
+    env_file:
+      - .env
+    volumes:
+      # Salva a sessão do WhatsApp na pasta local
+      - ./waha_sessions:/app/sessions
